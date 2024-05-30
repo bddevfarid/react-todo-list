@@ -34,7 +34,7 @@ const Page = () => {
                 <li key={index} className="bg-gray-200 text-gray-800 p-3 m-2">
                     <div className="flex justify-between items-center">
                         <h3 className="text-xl">{task}</h3>
-                        <button onClick={removeTask} className="bg-red-500 text-white px-4 py-2">Delete</button>
+                        <button onClick={removeTask} className="bg-red-500 text-white px-4 py-2">Done</button>
                     </div>
                 </li>
             );
